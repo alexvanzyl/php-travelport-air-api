@@ -1,0 +1,25 @@
+{
+    "name": "avanzyl/travelport-air",
+    "description": "PHP library for Travelport's Air Universal API",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander van Zyl",
+            "email": "vanzyl.alex@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Travelport\\Air\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "symfony/var-dumper": "^3.2"
+    }
+}
